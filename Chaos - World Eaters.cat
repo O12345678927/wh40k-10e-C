@@ -10649,6 +10649,11 @@ The first time each Phase a Model in this Unit would have Damage Inflicted to it
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Up to thrice per Turn, each time a Saving throw is failed by a Model in this Unit; Increase the A Characteristic of Weapons equipped by Models in this Unit by 1 until the end of the Fight Phase</characteristic>
           </characteristics>
         </profile>
+        <profile name="Bulky [2]" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="baba-668a-eb12-599a">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Models with the Bulky [X] Ability take up X spaces when inside a transport</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <categoryLinks>
         <categoryLink name="Infantry" hidden="false" id="8f0f-e8f6-cf3e-980d" targetId="cf47-a0d7-7207-29dc" primary="true"/>
