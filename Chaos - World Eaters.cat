@@ -10680,7 +10680,7 @@ The first time each Phase a Model in this Unit would have Damage Inflicted to it
               <profiles>
                 <profile name="Red Butcher" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="ba59-8966-7a6e-4fd4">
                   <characteristics>
-                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">5&quot;</characteristic>
+                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
                     <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
                     <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
                     <characteristic name="W" typeId="750a-a2ec-90d3-21fe">3</characteristic>
@@ -10698,7 +10698,7 @@ The first time each Phase a Model in this Unit would have Damage Inflicted to it
               <profiles>
                 <profile name="Devoured" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="bc7f-a2a2-b34c-02ec">
                   <characteristics>
-                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">5&quot;</characteristic>
+                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
                     <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
                     <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
                     <characteristic name="W" typeId="750a-a2ec-90d3-21fe">3</characteristic>
@@ -10742,7 +10742,7 @@ The first time each Phase a Model in this Unit would have Damage Inflicted to it
       </modifiers>
       <infoLinks>
         <infoLink name="Deep Strike" id="b049-8f10-079b-3bc7" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
-        <infoLink name="Feel No Pain" id="4b81-38e5-f231-68d1" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
+        <infoLink name="Feel No Pain" id="d70e-0d6d-88b3-44e6" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
         <infoLink name="Invulnerable Save (5+)" id="4d66-cbf9-1ea1-8fa1" hidden="false" type="profile" targetId="30d6-3998-8498-5c22"/>
       </infoLinks>
       <modifierGroups>
@@ -10835,7 +10835,7 @@ The first time each Phase a Model in this Unit would have Damage Inflicted to it
         <infoLink name="Twin-linked" id="f03a-8f73-b9bf-2d01" hidden="false" type="rule" targetId="cf93-ad4d-2f08-a79d"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Rampager Squad" hidden="false" id="c098-83ea-0440-0645">
+    <selectionEntry type="unit" import="true" name="Red Hand Destroyers" hidden="false" id="c098-83ea-0440-0645">
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="140"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
@@ -10871,7 +10871,7 @@ The first time each Phase a Model in this Unit would have Damage Inflicted to it
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="1f11-953c-1b98-7a00" includeChildSelections="true"/>
       </constraints>
       <modifiers>
-        <modifier type="set" value="190" field="51b2-306e-1021-d207">
+        <modifier type="set" value="270" field="51b2-306e-1021-d207">
           <conditions>
             <condition type="atLeast" value="6" field="selections" scope="c098-83ea-0440-0645" childId="cb96-6c6f-76f9-7d50" shared="true" id="c4ce-087a-2205-418a"/>
           </conditions>
@@ -10883,9 +10883,9 @@ The first time each Phase a Model in this Unit would have Damage Inflicted to it
         </modifier>
       </modifiers>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Rampagers" id="cb96-6c6f-76f9-7d50" hidden="false" sortIndex="2">
+        <selectionEntryGroup name="Red Hand" id="cb96-6c6f-76f9-7d50" hidden="false" sortIndex="2">
           <selectionEntries>
-            <selectionEntry type="model" import="true" name="Rampager" hidden="false" id="78de-8fcb-01ec-0ba2" sortIndex="2">
+            <selectionEntry type="model" import="true" name="Red Hand Destroyer" hidden="false" id="78de-8fcb-01ec-0ba2" sortIndex="2">
               <constraints>
                 <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="e8d9-f727-ca7c-7ca3"/>
                 <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="4970-74a2-e913-269c"/>
@@ -10905,7 +10905,7 @@ The first time each Phase a Model in this Unit would have Damage Inflicted to it
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <profiles>
-                <profile name="Rampager" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="a1ce-b63a-29c6-5581">
+                <profile name="Red Hand Destroyer" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="a1ce-b63a-29c6-5581">
                   <characteristics>
                     <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
                     <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
@@ -10925,7 +10925,7 @@ The first time each Phase a Model in this Unit would have Damage Inflicted to it
                 </entryLink>
               </entryLinks>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Rampager Champion" hidden="false" id="09ac-e923-b615-bd97" sortIndex="1">
+            <selectionEntry type="model" import="true" name="Blood-Bonded" hidden="false" id="09ac-e923-b615-bd97" sortIndex="1">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6f2d-6180-5102-99ab"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="14da-3484-21c9-84dc"/>
@@ -10979,7 +10979,7 @@ The first time each Phase a Model in this Unit would have Damage Inflicted to it
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <profiles>
-                <profile name="Rampager Champion" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="953b-69a4-eeba-865d">
+                <profile name="Blood-Bonded" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="953b-69a4-eeba-865d">
                   <characteristics>
                     <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
                     <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
