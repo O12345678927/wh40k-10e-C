@@ -2318,6 +2318,8 @@
     <entryLink import="true" name="Bloodcrushers" hidden="false" id="58cd-44ed-d3fb-3cf9" type="selectionEntry" targetId="e65f-c7c7-1d18-1a60"/>
     <entryLink import="true" name="Flesh Hounds" hidden="false" id="6977-dedc-7051-b76d" type="selectionEntry" targetId="b657-1743-6e3a-0838"/>
     <entryLink import="true" name="Order of Battle" hidden="false" id="f425-f72f-0b7a-9046" type="selectionEntry" targetId="eda7-8b4b-3719-af36"/>
+    <entryLink import="true" name="Rampager Squad" hidden="false" id="33f2-63d8-87ce-d6d3" type="selectionEntry" targetId="c098-83ea-0440-0645"/>
+    <entryLink import="true" name="Red Butchers" hidden="false" id="2769-ff91-6237-b80c" type="selectionEntry" targetId="b3a0-3c43-72d2-582b"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="f4b8-1179-de57-4d69" name="Angron" hidden="false" collective="false" import="true" type="model">
@@ -3882,8 +3884,8 @@
             <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
             <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
             <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-            <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
-            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic>
           </characteristics>
@@ -10679,7 +10681,7 @@ The first time each Phase a Model in this Unit would have Damage Inflicted to it
                 <profile name="Red Butcher" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="ba59-8966-7a6e-4fd4">
                   <characteristics>
                     <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">5&quot;</characteristic>
-                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
                     <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
                     <characteristic name="W" typeId="750a-a2ec-90d3-21fe">3</characteristic>
                     <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
@@ -10697,7 +10699,7 @@ The first time each Phase a Model in this Unit would have Damage Inflicted to it
                 <profile name="Devoured" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="bc7f-a2a2-b34c-02ec">
                   <characteristics>
                     <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">5&quot;</characteristic>
-                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">6</characteristic>
                     <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
                     <characteristic name="W" typeId="750a-a2ec-90d3-21fe">3</characteristic>
                     <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
@@ -10815,7 +10817,7 @@ The first time each Phase a Model in this Unit would have Damage Inflicted to it
         <profile name="Twin Power Axe" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="480e-d096-d4f0-62bc">
           <characteristics>
             <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
             <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
             <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
             <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
@@ -10905,7 +10907,7 @@ The first time each Phase a Model in this Unit would have Damage Inflicted to it
                 <profile name="Rampager" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="a1ce-b63a-29c6-5581">
                   <characteristics>
                     <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
-                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
                     <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
                     <characteristic name="W" typeId="750a-a2ec-90d3-21fe">2</characteristic>
                     <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
@@ -10979,7 +10981,7 @@ The first time each Phase a Model in this Unit would have Damage Inflicted to it
                 <profile name="Rampager Champion" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="953b-69a4-eeba-865d">
                   <characteristics>
                     <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">12&quot;</characteristic>
-                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">5</characteristic>
                     <characteristic name="SV" typeId="450-a17e-9d5e-29da">3+</characteristic>
                     <characteristic name="W" typeId="750a-a2ec-90d3-21fe">2</characteristic>
                     <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
@@ -11073,7 +11075,7 @@ The first time each Phase a Model in this Unit would have Damage Inflicted to it
             <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
             <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
             <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-            <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
             <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
             <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
             <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Twin-linked, Anti-Infantry 4+</characteristic>
@@ -11109,10 +11111,10 @@ The first time each Phase a Model in this Unit would have Damage Inflicted to it
         <profile name="Excoriator Chainaxe" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="2a16-f3c5-b80c-d6b4">
           <characteristics>
             <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
             <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-            <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
-            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">7</characteristic>
+            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
             <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
             <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Twin-linked</characteristic>
           </characteristics>
@@ -11128,7 +11130,7 @@ The first time each Phase a Model in this Unit would have Damage Inflicted to it
         <profile name="Meteor Hammer" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="3123-1033-825a-9dff">
           <characteristics>
             <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-            <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
             <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
             <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
             <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
