@@ -10742,7 +10742,8 @@ The first time each Phase a Model in this Unit would have Damage Inflicted to it
       </modifiers>
       <infoLinks>
         <infoLink name="Deep Strike" id="b049-8f10-079b-3bc7" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
-        <infoLink name="Feel No Pain" id="e7b9-2d44-920f-de55" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
+        <infoLink name="Feel No Pain" id="4b81-38e5-f231-68d1" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
+        <infoLink name="Invulnerable Save (5+)" id="4d66-cbf9-1ea1-8fa1" hidden="false" type="profile" targetId="30d6-3998-8498-5c22"/>
       </infoLinks>
       <modifierGroups>
         <modifierGroup type="and">
